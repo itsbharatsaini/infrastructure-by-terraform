@@ -1,0 +1,8 @@
+
+az login --service-principal -u $appID -p $PASSWORD --tenant $tenantID
+
+az aks get-credentials --resource-group  --name 
+
+kubectl config current-context
+
+kubectl get all
